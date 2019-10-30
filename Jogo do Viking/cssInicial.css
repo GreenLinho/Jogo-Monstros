@@ -1,0 +1,53 @@
+div{
+	margin: auto;
+	display: block;
+	text-align: center;
+	font-family: "Helvetica", sans-serif;
+	background-color: brown;
+	color: ghostwhite;
+	border-radius: 20px;
+	border: 5px solid black;
+	padding: 10px;
+}
+
+body{
+	background-color: darkgreen;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+}
+
+img{
+	width: 30%;
+	margin: auto;
+	display: block;
+	border-radius: 15px;
+	border: 5px solid black;
+	display: inline;
+}
+
+button{
+	border-radius: 15px;
+	border: 2px solid black;
+	width: 250px;
+	height: 60px;
+	font-size: 31px;
+	font-family: "Impact", sans-serif;
+}
+
+h1{
+	color: ghostwhite;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 50px;
+}
+
+h2,h3,h4{
+	color: #e6e6e6;
+}
+
+h4{
+	border: 5px gray ridge;
+	background-color: darkgray;
+	padding: 20px;
+	color: black;
+}

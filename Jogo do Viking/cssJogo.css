@@ -1,0 +1,10 @@
+canvas{
+	margin: auto;
+	text-align: center;
+}
+
+#caixa{
+	visibility: hidden;
+	background-color: black;
+	color: white;
+}
