@@ -27,8 +27,8 @@ button{
 	border-radius: 15px;
 	border: 2px solid black;
 	width: fit-content;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
 	padding-top: 0.3em;
 	padding-bottom: 0.3em;
 	font-size: 31px;
