@@ -7,30 +7,30 @@ div{
 	color: ghostwhite;
 	border-radius: 20px;
 	border: 5px solid black;
-	padding: 10px;
+	padding: 1em;
 }
 
 body{
 	background-color: darkgreen;
-	background-repeat: no-repeat;
-	background-size: 100%;
 	color: white;
 }
 
 img{
-	width: 30%;
+	width: 50vw;
 	margin: auto;
 	display: block;
 	border-radius: 15px;
 	border: 5px solid black;
-	display: inline;
 }
 
 button{
 	border-radius: 15px;
 	border: 2px solid black;
-	width: 250px;
-	height: 60px;
+	width: fit-content;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
 	font-size: 31px;
 	font-family: "Impact", sans-serif;
 }
@@ -48,6 +48,6 @@ h2,h3,h4{
 h4{
 	border: 5px gray ridge;
 	background-color: darkgray;
-	padding: 20px;
+	padding: 1em;
 	color: black;
 }
