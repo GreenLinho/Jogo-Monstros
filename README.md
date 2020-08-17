@@ -1,2 +1,2 @@
-# Jogo-Monstros
-Jogo rpg em html, css e javascript.
+# Forest-Monsters
+RPG game in HTML, JS and CSS.
