@@ -56,7 +56,7 @@ var ycaverna = 200;
 
 //Canvas CaixaDeBatalha:
 var imgRetangulo = new Image();
-imgRetangulo.src = "img/caixaEditado.jpg";
+imgRetangulo.src = "img/caixaEditado2.0.png";
 var imgSeta = new Image();
 imgSeta.src = "img/arrow.png";
 var imgCoracao = new Image();
@@ -410,12 +410,12 @@ function AtualizaTela()
             objContexto.drawImage(imgCoracao, 712, 210);
             objContexto.font = "15px Courier New";
             objContexto.fillStyle = "white";
-            objContexto.fillText("Use [Z] para selecionar", 740, 590);
+            objContexto.fillText("Press [Z] to select", 740, 590);
 
             //Vida e Poções:
             objContexto.font = "40px Courier New";
             objContexto.fillStyle = "white";
-            objContexto.fillText("PV:" + vidaEu, 770, 500);
+            objContexto.fillText("HP:" + vidaEu, 770, 500);
             objContexto.fillText("(x" + qtasPocoes +")", 1250, 300);
             if(vidaEu <= 0)
             {
@@ -423,8 +423,8 @@ function AtualizaTela()
                 objContexto.drawImage(imgMorte, 0, 0);
                 objContexto.font = "100px Fantasy";
                 objContexto.fillStyle = "black";
-                objContexto.fillText("VOCÊ MORREU!", 500, 200);
-                objContexto.drawImage(imgSkull, 580, 250);
+                objContexto.fillText("YOU DIED!", 600, 200);
+                objContexto.drawImage(imgSkull, 600, 250);
 
                 setTimeout(function()
                 {
@@ -436,13 +436,13 @@ function AtualizaTela()
             {
                 //Exibição da vida do monstro:
                 if(qualMonstro == "monstro1")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro1, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro1, 650, 535);
                 if(qualMonstro == "monstro2")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro2, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro2, 650, 535);
                 if(qualMonstro == "monstro3")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro3, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro3, 650, 535);
                 if(qualMonstro == "monstro4")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro4, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro4, 650, 535);
             }
         }
     }
@@ -522,12 +522,12 @@ function AtualizaTela()
             objContexto.drawImage(imgCoracao, 712, 210);
             objContexto.font = "15px Courier New";
             objContexto.fillStyle = "white";
-            objContexto.fillText("Use [Z] para selecionar", 740, 590);
+            objContexto.fillText("Press [Z] to select", 740, 590);
 
             //Vida e Poções:
             objContexto.font = "40px Courier New";
             objContexto.fillStyle = "white";
-            objContexto.fillText("PV:" + vidaEu, 770, 500);
+            objContexto.fillText("HP:" + vidaEu, 770, 500);
             objContexto.fillText("(x" + qtasPocoes +")", 1250, 300);
             if(vidaEu <= 0)
             {
@@ -535,8 +535,8 @@ function AtualizaTela()
                 objContexto.drawImage(imgMorte, 0, 0);
                 objContexto.font = "100px Fantasy";
                 objContexto.fillStyle = "black";
-                objContexto.fillText("VOCÊ MORREU!", 500, 200);
-                objContexto.drawImage(imgSkull, 580, 250);
+                objContexto.fillText("YOU DIED!", 600, 200);
+                objContexto.drawImage(imgSkull, 600, 250);
 
                 setTimeout(function()
                 {
@@ -547,13 +547,13 @@ function AtualizaTela()
             if(vidaEu > 0)
             {
                 if(qualMonstro == "monstro5")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro5, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro5, 650, 535);
                 if(qualMonstro == "monstro6")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro6, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro6, 650, 535);
                 if(qualMonstro == "monstro7")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro7, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro7, 650, 535);
                 if(qualMonstro == "monstro8")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro8, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro8, 650, 535);
             }
         }
     }
@@ -634,12 +634,12 @@ function AtualizaTela()
             objContexto.drawImage(imgCoracao, 712, 210);
             objContexto.font = "15px Courier New";
             objContexto.fillStyle = "white";
-            objContexto.fillText("Use [Z] para selecionar", 740, 590);
+            objContexto.fillText("Press [Z] to select", 740, 590);
 
             //Vida e Poções:
             objContexto.font = "40px Courier New";
             objContexto.fillStyle = "white";
-            objContexto.fillText("PV:" + vidaEu, 770, 500);
+            objContexto.fillText("HP:" + vidaEu, 770, 500);
             objContexto.fillText("(x" + qtasPocoes +")", 1250, 300);
             if(vidaEu <= 0)
             {
@@ -647,8 +647,8 @@ function AtualizaTela()
                 objContexto.drawImage(imgMorte, 0, 0);
                 objContexto.font = "100px Fantasy";
                 objContexto.fillStyle = "black";
-                objContexto.fillText("VOCÊ MORREU!", 500, 200);
-                objContexto.drawImage(imgSkull, 580, 250);
+                objContexto.fillText("YOU DIED!", 600, 200);
+                objContexto.drawImage(imgSkull, 600, 250);
 
                 setTimeout(function()
                 {
@@ -659,13 +659,13 @@ function AtualizaTela()
             if(vidaEu > 0)
             {
                 if(qualMonstro == "monstro9")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro9, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro9, 650, 535);
                 if(qualMonstro == "monstro10")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro10, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro10, 650, 535);
                 if(qualMonstro == "monstro11")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro11, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro11, 650, 535);
                 if(qualMonstro == "monstro12")
-                    objContexto.fillText("PV Monstro:" + vidaMonstro12, 690, 535);
+                    objContexto.fillText("Monster's HP:" + vidaMonstro12, 650, 535);
             }
         }
     }
@@ -693,10 +693,10 @@ function AtualizaTela()
 			objContexto.drawImage(imgMorte, 0, 0);
         	objContexto.font = "100px Fantasy";
         	objContexto.fillStyle = "black";
-        	objContexto.fillText("VOCÊ VENCEU!", 550, 400);
+        	objContexto.fillText("YOU WON!", 600, 400);
         	objContexto.font = "30px Fantasy";
         	objContexto.fillStyle = "white";
-        	objContexto.fillText("Você encontra um sinalizador no estômago do monstro derrotado e chama ajuda...", 340, 150);
+        	objContexto.fillText("You find a flare gun inside the dead monster's stomach and call for help...", 340, 150);
 
             setTimeout(function()
             {
@@ -715,12 +715,12 @@ function AtualizaTela()
 	            objContexto.drawImage(imgCoracao, 712, 210);
 	            objContexto.font = "15px Courier New";
 	            objContexto.fillStyle = "white";
-	            objContexto.fillText("Use [Z] para selecionar", 740, 590);
+	            objContexto.fillText("Press [Z] to select", 740, 590);
 
 	            //Vida e Poções:
 	            objContexto.font = "40px Courier New";
 	            objContexto.fillStyle = "white";
-	            objContexto.fillText("PV:" + vidaEu, 770, 500);
+	            objContexto.fillText("HP:" + vidaEu, 770, 500);
 	            objContexto.fillText("(x" + qtasPocoes +")", 1250, 300);
 	            if(vidaEu <= 0)
 	            {
@@ -728,8 +728,8 @@ function AtualizaTela()
 	                objContexto.drawImage(imgMorte, 0, 0);
 	                objContexto.font = "100px Fantasy";
 	                objContexto.fillStyle = "black";
-	                objContexto.fillText("VOCÊ MORREU!", 500, 200);
-	                objContexto.drawImage(imgSkull, 580, 250);
+	                objContexto.fillText("YOU DIED!", 600, 200);
+	                objContexto.drawImage(imgSkull, 600, 250);
 
 	                setTimeout(function()
 	                {
@@ -740,7 +740,7 @@ function AtualizaTela()
 	            if(vidaEu > 0)
 	            {
 	                if(qualMonstro == "monstroBoss")
-	                    objContexto.fillText("PV Monstro:" + vidaMonstroBoss, 690, 535);
+	                    objContexto.fillText("Monster's HP:" + vidaMonstroBoss, 650, 535);
 	            }
         	}
         	else
@@ -749,19 +749,19 @@ function AtualizaTela()
 	            objContexto.fillStyle = "white";
         		objContexto.drawImage(imgRetangulo, 220, 200);
         		objContexto.drawImage(imgCoracao, 712, 210);
-        		objContexto.fillText("O BOSS NÃO QUER", 710, 500);
-        		objContexto.fillText("LUTAR COM VOCÊ.", 714, 530);
+        		objContexto.fillText("THE BOSS DOESN'T", 700, 500);
+        		objContexto.fillText("WANT TO FIGHT YOU.", 690, 530);
 
         		setTimeout(function()
         		{
         			objContexto.drawImage(imgMorte, 0, 0);
 	            	objContexto.font = "100px Fantasy";
 	            	objContexto.fillStyle = "black";
-	            	objContexto.fillText("VOCÊ VENCEU!", 500, 200);
+	            	objContexto.fillText("YOU WON!", 600, 200);
 	            	objContexto.font = "30px Fantasy";
 	            	objContexto.fillStyle = "white";
-	            	objContexto.fillText("Mas morreu de fome na floresta.", 580, 250);
-	            	objContexto.drawImage(imgSkull, 580, 280);
+	            	objContexto.fillText("But died of hunger in the forest.", 605, 250);
+	            	objContexto.drawImage(imgSkull, 600, 280);
 	            }, 8000);
 
 	            setTimeout(function()
@@ -1560,7 +1560,7 @@ function sortearDirecaoPadrao()
                 {
                     if(direcaoCoracao == 0)
                     {
-                        objContexto.fillText("ESQUERDA", 762, 345);
+                        objContexto.fillText("LEFT", 810, 345);
 
                         setTimeout(function()
                         {
@@ -1569,7 +1569,7 @@ function sortearDirecaoPadrao()
                     }
                     if(direcaoCoracao == 1)
                     {
-                        objContexto.fillText("DIREITA", 774, 345);
+                        objContexto.fillText("RIGHT", 795, 345);
 
                         setTimeout(function()
                         {
@@ -1578,7 +1578,7 @@ function sortearDirecaoPadrao()
                     }
                     if(direcaoCoracao == 2)
                     {
-                        objContexto.fillText("CIMA", 795, 345);
+                        objContexto.fillText("UP", 820, 345);
 
                         setTimeout(function()
                         {
@@ -1587,7 +1587,7 @@ function sortearDirecaoPadrao()
                     }
                     if(direcaoCoracao == 3)
                     {
-                        objContexto.fillText("BAIXO", 790, 345);
+                        objContexto.fillText("DOWN", 790, 345);
 
                         setTimeout(function()
                         {
@@ -1624,7 +1624,7 @@ function sortearDirecaoInvertida()
                 {
                     if(direcaoCoracao == 1)
                     {
-                        objContexto.fillText("ESQUERDA", 762, 345);
+                        objContexto.fillText("LEFT", 810, 345);
 
                         setTimeout(function()
                         {
@@ -1633,7 +1633,7 @@ function sortearDirecaoInvertida()
                     }
                     if(direcaoCoracao == 0)
                     {
-                        objContexto.fillText("DIREITA", 774, 345);
+                        objContexto.fillText("RIGHT", 795, 345);
 
                         setTimeout(function()
                         {
@@ -1642,7 +1642,7 @@ function sortearDirecaoInvertida()
                     }
                     if(direcaoCoracao == 3)
                     {
-                        objContexto.fillText("CIMA", 795, 345);
+                        objContexto.fillText("UP", 820, 345);
 
                         setTimeout(function()
                         {
@@ -1651,7 +1651,7 @@ function sortearDirecaoInvertida()
                     }
                     if(direcaoCoracao == 2)
                     {
-                        objContexto.fillText("BAIXO", 790, 345);
+                        objContexto.fillText("DOWN", 790, 345);
 
                         setTimeout(function()
                         {
@@ -1688,7 +1688,7 @@ function sortearDirecaoTrocada()
                 {
                     if(direcaoCoracao == 3)
                     {
-                        objContexto.fillText("ESQUERDA", 762, 345);
+                        objContexto.fillText("LEFT", 810, 345);
 
                         setTimeout(function()
                         {
@@ -1697,7 +1697,7 @@ function sortearDirecaoTrocada()
                     }
                     if(direcaoCoracao == 2)
                     {
-                        objContexto.fillText("DIREITA", 774, 345);
+                        objContexto.fillText("RIGHT", 795, 345);
 
                         setTimeout(function()
                         {
@@ -1706,7 +1706,7 @@ function sortearDirecaoTrocada()
                     }
                     if(direcaoCoracao == 1)
                     {
-                        objContexto.fillText("CIMA", 795, 345);
+                        objContexto.fillText("UP", 820, 345);
 
                         setTimeout(function()
                         {
@@ -1715,7 +1715,7 @@ function sortearDirecaoTrocada()
                     }
                     if(direcaoCoracao == 0)
                     {
-                        objContexto.fillText("BAIXO", 790, 345);
+                        objContexto.fillText("DOWN", 790, 345);
 
                         setTimeout(function()
                         {
@@ -1752,7 +1752,7 @@ function sortearDirecaoDificil()
                 {
                     if(direcaoCoracao == 0)
                     {
-                        objContexto.fillText("ESQUERDA", 762, 345);
+                        objContexto.fillText("LEFT", 810, 345);
 
                         setTimeout(function()
                         {
@@ -1761,7 +1761,7 @@ function sortearDirecaoDificil()
                     }
                     if(direcaoCoracao == 2)
                     {
-                        objContexto.fillText("DIREITA", 774, 345);
+                        objContexto.fillText("RIGHT", 795, 345);
 
                         setTimeout(function()
                         {
@@ -1770,7 +1770,7 @@ function sortearDirecaoDificil()
                     }
                     if(direcaoCoracao == 3)
                     {
-                        objContexto.fillText("CIMA", 795, 345);
+                        objContexto.fillText("UP", 820, 345);
 
                         setTimeout(function()
                         {
@@ -1779,7 +1779,7 @@ function sortearDirecaoDificil()
                     }
                     if(direcaoCoracao == 1)
                     {
-                        objContexto.fillText("BAIXO", 790, 345);
+                        objContexto.fillText("DOWN", 790, 345);
 
                         setTimeout(function()
                         {
@@ -1816,7 +1816,7 @@ function sortearDirecaoBoss()
                 {
                     if(direcaoCoracao == 0)
                     {
-                        objContexto.fillText("ESQUERDA", 762, 345);
+                        objContexto.fillText("LEFT", 810, 345);
 
                         setTimeout(function()
                         {
@@ -1825,7 +1825,7 @@ function sortearDirecaoBoss()
                     }
                     if(direcaoCoracao == 2)
                     {
-                        objContexto.fillText("DIREITA", 774, 345);
+                        objContexto.fillText("RIGHT", 795, 345);
 
                         setTimeout(function()
                         {
@@ -1834,7 +1834,7 @@ function sortearDirecaoBoss()
                     }
                     if(direcaoCoracao == 3)
                     {
-                        objContexto.fillText("CIMA", 795, 345);
+                        objContexto.fillText("UP", 820, 345);
 
                         setTimeout(function()
                         {
@@ -1843,7 +1843,7 @@ function sortearDirecaoBoss()
                     }
                     if(direcaoCoracao == 1)
                     {
-                        objContexto.fillText("BAIXO", 790, 345);
+                        objContexto.fillText("DOWN", 790, 345);
 
                         setTimeout(function()
                         {
